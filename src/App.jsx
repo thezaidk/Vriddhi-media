@@ -3,7 +3,7 @@ import React from "react";
 import Appbar from "./components/Appbar";
 import Footer from "./components/Footer";
 
-const Home = React.lazy(() => import('./pages/home'));
+const Home = React.lazy(() => import('./pages/Home'));
 const Services = React.lazy(() => import('./pages/Services'));
 const Newsletter = React.lazy(() => import('./pages/Newsletter'));
 const Contact = React.lazy(() => import('./pages/Contact'));
